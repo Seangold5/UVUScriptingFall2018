@@ -1,0 +1,11 @@
+    //Three Variables
+    public int MoveSpeed = 3;
+    public float AnotherVariable;
+    public bool YetAnotherVariable;
+
+    //Three Data Types
+    public Transform;
+    public LayerMask;
+
+    //Three Functions
+    

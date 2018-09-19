@@ -21,7 +21,7 @@ public class CharacterMove : MonoBehaviour {
 	
 
 	void FixedUpdate () {
-		Grounded = Physics2D.OverlapCircle(GroundCheck.Position, GroundCheckRadius, WhatIsGround);
+		Grounded = Physics2D.OverlapCircle(GroundCheck.position, GroundCheckRadius, WhatIsGround);
 	}
 
 	// Update is called once per frame
