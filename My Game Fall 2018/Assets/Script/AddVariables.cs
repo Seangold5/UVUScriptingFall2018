@@ -11,13 +11,14 @@ public class AddVariables : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Add(TotalVariable = VariableOne+VariableTwo);
-		
-		Print(TotalVariable)
+		CalcAdd(TotalVariable = VariableOne+VariableTwo);
 	}
+
+	// Other parts of script
 	
-	// Update is called once per frame
-	void Update () {
-		
+	void Print () {
+		TotalVariable;
+	
 	}
-}
+
+	}
