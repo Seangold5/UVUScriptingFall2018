@@ -11,14 +11,14 @@ public class AddVariables : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		CalcAdd(TotalVariable = VariableOne+VariableTwo);
+		Add(VariableOne,VariableTwo);
 	}
 
 	// Other parts of script
-	
-	void Print () {
-		TotalVariable;
-	
+	public void Add(int VariableOne, int VariableTwo){
+		
+		TotalVariable = VariableOne + VariableTwo;
+		print(TotalVariable);
 	}
 
 	}
