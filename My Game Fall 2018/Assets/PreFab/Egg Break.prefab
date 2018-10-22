@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4290240539810570}
   - component: {fileID: 212831570365629002}
   m_Layer: 0
-  m_Name: Death Particle
+  m_Name: Egg Break
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

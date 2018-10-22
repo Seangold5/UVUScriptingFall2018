@@ -58,6 +58,16 @@ public class CharacterMove : MonoBehaviour {
 			MoveVelocity = -MoveSpeed;
 		}
 		
+		// Changes direction character is facing
+		if(Input.GetKey (KeyCode.D)){
+			transform.localScale = new Vector3(0.36787f,0.36787f,0.36787f);
+			GetComponent<Rigidbody2D>().velocity = new Vector2(MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+		}
+		if(Input.GetKey (KeyCode.A)){
+			transform.localScale = new Vector3(-0.36787f,0.36787f,0.36787f);
+			GetComponent<Rigidbody2D>().velocity = new Vector2(-MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+		}
+
 		GetComponent<Rigidbody2D>().velocity = new Vector2(MoveVelocity, GetComponent<Rigidbody2D>().velocity.y);
 
 		
