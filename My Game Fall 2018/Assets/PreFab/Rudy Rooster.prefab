@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 50640951622610246}
   - component: {fileID: 114192998776441702}
   - component: {fileID: 114085874290831578}
-  - component: {fileID: 114404954728335432}
   - component: {fileID: 114107180665112654}
   m_Layer: 0
   m_Name: Rudy Rooster
@@ -76,7 +75,7 @@ GameObject:
   m_Layer: 0
   m_Name: FirePoint
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -258,7 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FirePoint: {fileID: 4309387250745026}
-  Projectile: {fileID: 0}
+  Projectile: {fileID: 1557338167519962, guid: c4837de73f08042afac5f1112ffcf186, type: 2}
 --- !u!114 &114192998776441702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -277,19 +276,6 @@ MonoBehaviour:
   WhatIsGround:
     serializedVersion: 2
     m_Bits: 256
---- !u!114 &114404954728335432
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1217310318332568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2d6fa5a448b64acfaf5fbae3dbe4e5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FirePoint: {fileID: 0}
-  Projectile: {fileID: 0}
 --- !u!212 &212164147452751890
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -14498,11 +14498,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114107180665112654, guid: 8e7369224ab2e4e33aeb246d18ef2b9c,
-        type: 2}
-      propertyPath: Projectile
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 114085874290831578, guid: 8e7369224ab2e4e33aeb246d18ef2b9c,
         type: 2}
       propertyPath: CurrentCheckPoint
