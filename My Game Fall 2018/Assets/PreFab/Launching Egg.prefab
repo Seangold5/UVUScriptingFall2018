@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1557338167519962}
   m_LocalRotation: {x: -0, y: -0, z: -0.70721155, w: 0.70700204}
-  m_LocalPosition: {x: -13.793, y: -3.08, z: 0}
+  m_LocalPosition: {x: -21.3, y: -53.7, z: 0}
   m_LocalScale: {x: 0.43618, y: 0.43618, z: 0.43618}
   m_Children: []
   m_Father: {fileID: 0}
@@ -91,8 +91,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 4
   PC: {fileID: 0}
-  EnemyDeath: {fileID: 1294823403516942, guid: 309fc5ea6a31a46f48ff6c0eafbf14b3, type: 2}
-  ProjectileParticle: {fileID: 1506741240117758, guid: 4b5e0fc18f4b44cd082f991280906734,
+  EnemyDeath: {fileID: 1981889555795090, guid: 309fc5ea6a31a46f48ff6c0eafbf14b3, type: 2}
+  ProjectileParticle: {fileID: 1761078255294818, guid: 16d29b0989a42433595d34455980c0b3,
     type: 2}
   PointsForKill: 5
 --- !u!212 &212697227899436590
