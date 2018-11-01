@@ -63,7 +63,27 @@ public class PracticeSwitch : MonoBehaviour {
 			break;
 
 		}
+		switch(Colors){
 
+			case Red:
+				print("It is " + Colors);
+			break;
+
+			case Blue:
+				print("It is " + Colors);
+			break;
+
+			case Yellow:
+				print("It is " + Colors);
+			break;
+
+			case Green:
+				print("It is " + Colors);
+			break;
+
+			default:
+				print("I don't know " + Colors);
+			break;
 
 
 	}
