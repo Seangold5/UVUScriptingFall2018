@@ -8,16 +8,16 @@ public class Loops : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		// for(int i=0; i <= 100; i++){
+		for(int i=0; i <= 100; i++){
 
-		// 	print(i + " Ants Marching");
+			print(i + " Ants Marching");
 
-		// }
+		}
 
-		// while(Num > 0){
-		// 	print("Countdown " + Num);
-		// 	Num --;
-		// }
+		while(Num > 0){
+			print("Countdown " + Num);
+			Num --;
+		}
 
 	}
 	
