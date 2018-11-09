@@ -10152,7 +10152,7 @@ GameObject:
   - component: {fileID: 907425504}
   m_Layer: 0
   m_Name: LampPost copy
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17272,7 +17272,7 @@ GameObject:
   - component: {fileID: 1388101817}
   m_Layer: 8
   m_Name: Box (1)
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18455,10 +18455,11 @@ Prefab:
     - target: {fileID: 1929351711860670, guid: 8e7369224ab2e4e33aeb246d18ef2b9c, type: 2}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 4309387250745026, guid: 8e7369224ab2e4e33aeb246d18ef2b9c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.33
+      value: 1.79
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114085874290831578, guid: 8e7369224ab2e4e33aeb246d18ef2b9c, type: 2}
@@ -22050,7 +22051,7 @@ GameObject:
   - component: {fileID: 1750742286}
   m_Layer: 8
   m_Name: Rock_B copy
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

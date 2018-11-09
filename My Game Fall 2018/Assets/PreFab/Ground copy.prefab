@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61282146874693920}
   m_Layer: 8
   m_Name: Ground copy
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

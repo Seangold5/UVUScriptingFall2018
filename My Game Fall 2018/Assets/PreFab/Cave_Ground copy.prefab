@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61473515757427042}
   m_Layer: 8
   m_Name: Cave_Ground copy
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1670763721407478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 81.38, y: -4.31, z: -1}
+  m_LocalPosition: {x: 81.38, y: -4.317, z: -1}
   m_LocalScale: {x: 0.996, y: 0.938, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
