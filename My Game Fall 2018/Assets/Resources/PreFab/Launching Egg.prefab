@@ -90,11 +90,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 4
-  PC: {fileID: 0}
+  PC: {fileID: 1217310318332568, guid: 8e7369224ab2e4e33aeb246d18ef2b9c, type: 2}
   EnemyDeath: {fileID: 1981889555795090, guid: 309fc5ea6a31a46f48ff6c0eafbf14b3, type: 2}
   ProjectileParticle: {fileID: 1761078255294818, guid: 16d29b0989a42433595d34455980c0b3,
     type: 2}
   PointsForKill: 5
+  TimeOut: 3
 --- !u!212 &212697227899436590
 SpriteRenderer:
   m_ObjectHideFlags: 1

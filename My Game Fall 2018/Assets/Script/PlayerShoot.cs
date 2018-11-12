@@ -9,7 +9,7 @@ public class PlayerShoot : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-			Projectile = GameObject.Find("Launching Egg");
+			Projectile = Resources.Load("PreFab/Launching Egg") as GameObject;
 	}
 	// Update is called once per frame
 	void Update () {
