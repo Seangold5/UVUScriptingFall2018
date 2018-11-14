@@ -6,6 +6,7 @@ public class PlayerShoot : MonoBehaviour {
 	// Shoot Variables
 	public Transform FirePoint;
 	public GameObject Projectile;
+	public int AmoUse;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +16,11 @@ public class PlayerShoot : MonoBehaviour {
 	void Update () {
 			if(Input.GetKeyDown(KeyCode.Return))
 				Instantiate(Projectile,FirePoint.position, FirePoint.rotation);
+				EggCount.AddAmo(-AmoUse);
+			else if(Amo = 0)
+				do nothing;
+			
+
 				
 	}
 }

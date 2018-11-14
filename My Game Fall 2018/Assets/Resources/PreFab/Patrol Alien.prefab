@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 50057808977394746}
   - component: {fileID: 114776621488753360}
   - component: {fileID: 114002997505872824}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Patrol Alien
   m_TagString: Enemy
   m_Icon: {fileID: 0}

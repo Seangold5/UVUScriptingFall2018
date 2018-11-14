@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 50248076061435170}
   - component: {fileID: 114355571381747358}
   - component: {fileID: 114982506186880804}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Fast Alien
   m_TagString: Enemy
   m_Icon: {fileID: 0}

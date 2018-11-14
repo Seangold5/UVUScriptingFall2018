@@ -161,6 +161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentCheckPoint: {fileID: 0}
   Player: {fileID: 50640951622610246}
+  Player2: {fileID: 0}
   DeathParticle: {fileID: 1234106711237386, guid: 51112ad8399284a10878265108d976bd,
     type: 2}
   RespawnParticle: {fileID: 1234106711237386, guid: 51112ad8399284a10878265108d976bd,
@@ -180,6 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FirePoint: {fileID: 4309387250745026}
   Projectile: {fileID: 1557338167519962, guid: c4837de73f08042afac5f1112ffcf186, type: 2}
+  AmoUse: 1
 --- !u!114 &114192998776441702
 MonoBehaviour:
   m_ObjectHideFlags: 1

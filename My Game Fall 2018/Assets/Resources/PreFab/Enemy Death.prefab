@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4411355863113668}
   - component: {fileID: 198216626013373160}
   - component: {fileID: 199906482287931456}
+  - component: {fileID: 114149762046733828}
   m_Layer: 0
   m_Name: Enemy Death
   m_TagString: Untagged
@@ -41,6 +42,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &114149762046733828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981889555795090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca90759fa2973417091cc698bcdf7c32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &198216626013373160
 ParticleSystem:
   m_ObjectHideFlags: 1

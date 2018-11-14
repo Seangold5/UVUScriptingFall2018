@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 58699061475234302}
   - component: {fileID: 50809530541111564}
   - component: {fileID: 114122400405873440}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Launching Egg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
