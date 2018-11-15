@@ -14,10 +14,9 @@ public class PlayerShoot : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-			if(Input.GetKeyDown(KeyCode.Return))
+			if(Input.GetKeyDown(KeyCode.Return) && EggCount.Amo > 0){
 				Instantiate(Projectile,FirePoint.position, FirePoint.rotation);
 				EggCount.AddAmo(-AmoUse);
-			if(Eggcount.Amo = 0)
-				targetGuitext.text = "Empty ammo";
+			}
 	}
 }
