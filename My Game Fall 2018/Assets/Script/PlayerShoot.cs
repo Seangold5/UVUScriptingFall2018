@@ -17,10 +17,7 @@ public class PlayerShoot : MonoBehaviour {
 			if(Input.GetKeyDown(KeyCode.Return))
 				Instantiate(Projectile,FirePoint.position, FirePoint.rotation);
 				EggCount.AddAmo(-AmoUse);
-			else if(Amo = 0)
-				do nothing;
-			
-
-				
+			if(Eggcount.Amo = 0)
+				targetGuitext.text = "Empty ammo";
 	}
 }
