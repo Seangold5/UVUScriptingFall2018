@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class HealthPickup : MonoBehaviour {
 	
-	// public int HealthToAdd;
+	public int HealthToAdd;
 
-	// void OnTriggerEnter2D (Collider2D Other){
-	// 	if(Other.GetComponent<Rigidbody2D> () == null)
-	// 		return;
+	void OnTriggerEnter2D (Collider2D Other){
+		if(Other.GetComponent<Rigidbody2D> () == null)
+			return;
 
-	// 	HealthBar.AddHealth (HealthToAdd);
+		HealthManager.AddHealth (HealthToAdd);
 
-	// 	Destroy (gameObject);
-	// }
+		Destroy (gameObject);
+	}
 }
