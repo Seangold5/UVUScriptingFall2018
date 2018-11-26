@@ -6,7 +6,8 @@ public class PlayerShoot : MonoBehaviour {
 	// Shoot Variables
 	public Transform FirePoint;
 	public GameObject Projectile;
-	public int AmoUse;
+	public int AmmoUse;
+	
 
 	// Use this for initialization
 	void Start () {
@@ -14,9 +15,9 @@ public class PlayerShoot : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-			if(Input.GetKeyDown(KeyCode.Return) && EggCount.Amo > 0){
+			if(Input.GetKeyDown(KeyCode.Return) && EggCount.Ammo > 0){
 				Instantiate(Projectile,FirePoint.position, FirePoint.rotation);
-				EggCount.AddAmo(-AmoUse);
+				EggCount.AddAmmo(-AmmoUse);
 			}
 	}
 }

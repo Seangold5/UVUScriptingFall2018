@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class EggPickup : MonoBehaviour {
 	
-	public int AmoToAdd;
+	public int AmmoToAdd;
 
 	void OnTriggerEnter2D (Collider2D Other){
 		if(Other.GetComponent<Rigidbody2D> () == null)
 			return;
 
-		EggCount.AddAmo (AmoToAdd);
+		EggCount.AddAmmo (AmmoToAdd);
 
 		Destroy (gameObject);
 	}

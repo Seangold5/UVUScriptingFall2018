@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 61242409198216028}
   - component: {fileID: 50640951622610246}
   - component: {fileID: 114192998776441702}
-  - component: {fileID: 114085874290831578}
   - component: {fileID: 114107180665112654}
   m_Layer: 0
   m_Name: Rudy Rooster
@@ -84,7 +83,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1929351711860670}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.86, y: 1.09, z: 0}
+  m_LocalPosition: {x: 2.52, y: 1.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4190819708112996}
@@ -148,26 +147,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.5, y: 4.5}
   m_EdgeRadius: 0
---- !u!114 &114085874290831578
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1217310318332568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6017d1353d51e48c1ab4ee6aeaa56d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentCheckPoint: {fileID: 0}
-  Player: {fileID: 50640951622610246}
-  Player2: {fileID: 0}
-  DeathParticle: {fileID: 1234106711237386, guid: 51112ad8399284a10878265108d976bd,
-    type: 2}
-  RespawnParticle: {fileID: 1234106711237386, guid: 51112ad8399284a10878265108d976bd,
-    type: 2}
-  RespawnDelay: 1
-  PointPenaltyOnDeath: 50
 --- !u!114 &114107180665112654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -181,7 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FirePoint: {fileID: 4309387250745026}
   Projectile: {fileID: 1557338167519962, guid: c4837de73f08042afac5f1112ffcf186, type: 2}
-  AmoUse: 1
+  AmmoUse: 1
 --- !u!114 &114192998776441702
 MonoBehaviour:
   m_ObjectHideFlags: 1
