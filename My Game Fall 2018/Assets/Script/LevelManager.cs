@@ -17,6 +17,7 @@ public class LevelManager : MonoBehaviour {
 
 	// Point Penalty on Death
 	public int PointPenaltyOnDeath;
+	public int HealthPenaltyOnDeath;
 
 	// Store Gravity Value
 	private float GravityStore;
@@ -44,6 +45,7 @@ public class LevelManager : MonoBehaviour {
 		Player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 		// Point Penalty
 		ScoreManager.AddPoints(-PointPenaltyOnDeath);
+		HealthManager.AddHealth(-HealthPenaltyOnDeath);
 		// Debug Message
 		Debug.Log ("Player Respawn");
 		// Respawn Delay

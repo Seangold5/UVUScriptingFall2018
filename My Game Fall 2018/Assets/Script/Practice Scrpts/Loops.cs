@@ -7,19 +7,19 @@ public class Loops : MonoBehaviour {
 	public int Num = 40;
 
 	// Use this for initialization
-	void Start () {
-		for(int i=0; i <= 100; i++){
+	// void Start () {
+	// 	for(int i=0; i <= 100; i++){
 
-			print(i + " Ants Marching");
+	// 		print(i + " Ants Marching");
 
-		}
+	// 	}
 
-		while(Num > 0){
-			print("Countdown " + Num);
-			Num --;
-		}
+	// 	while(Num > 0){
+	// 		print("Countdown " + Num);
+	// 		Num --;
+	// 	}
 
-	}
+	// }
 	
 	// Update is called once per frame
 	void Update () {
