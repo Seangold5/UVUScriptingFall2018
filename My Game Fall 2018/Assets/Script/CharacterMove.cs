@@ -18,6 +18,8 @@ public class CharacterMove : MonoBehaviour {
 	// Non-Stick Player
 	private float MoveVelocity;
 
+	public Animator animator;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -52,10 +54,12 @@ public class CharacterMove : MonoBehaviour {
 		if(Input.GetKey (KeyCode.D)){
 			// GetComponent<Rigidbody2D>().velocity = new Vector2(MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 			MoveVelocity = MoveSpeed;
+			animator.SetFloat("Speed", );
 		}
 		if(Input.GetKey (KeyCode.A)){
 			// GetComponent<Rigidbody2D>().velocity = new Vector2(-MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 			MoveVelocity = -MoveSpeed;
+			animator.SetFloat("Speed", );
 		}
 		
 		// Changes direction character is facing
