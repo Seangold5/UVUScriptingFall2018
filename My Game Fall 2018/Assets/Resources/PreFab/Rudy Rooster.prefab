@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50640951622610246}
   - component: {fileID: 114192998776441702}
   - component: {fileID: 114107180665112654}
+  - component: {fileID: 95055254729674014}
   m_Layer: 0
   m_Name: Rudy Rooster
   m_TagString: Untagged
@@ -68,7 +69,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1217310318332568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.92, y: -3.46, z: 0}
+  m_LocalPosition: {x: -14.92, y: -3.24, z: 0}
   m_LocalScale: {x: 0.36787, y: 0.36787, z: 0.36787}
   m_Children:
   - {fileID: 4553906598551518}
@@ -83,7 +84,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1929351711860670}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.52, y: 1.09, z: 0}
+  m_LocalPosition: {x: 2.52, y: 0.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4190819708112996}
@@ -147,6 +148,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.5, y: 4.5}
   m_EdgeRadius: 0
+--- !u!95 &95055254729674014
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217310318332568}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 514146021bd3f46c489ad929fa913d2f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114107180665112654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -179,6 +198,7 @@ MonoBehaviour:
   WhatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  animator: {fileID: 95055254729674014}
 --- !u!212 &212164147452751890
 SpriteRenderer:
   m_ObjectHideFlags: 1

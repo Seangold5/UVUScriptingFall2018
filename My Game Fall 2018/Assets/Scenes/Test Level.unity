@@ -20409,24 +20409,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1217310318332568, guid: 8e7369224ab2e4e33aeb246d18ef2b9c,
     type: 2}
   m_PrefabInternal: {fileID: 1448230918}
---- !u!95 &1254469099
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1254469094}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 514146021bd3f46c489ad929fa913d2f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1259488185
 GameObject:
   m_ObjectHideFlags: 0
@@ -24257,7 +24239,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4190819708112996, guid: 8e7369224ab2e4e33aeb246d18ef2b9c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.46
+      value: -3.24
       objectReference: {fileID: 0}
     - target: {fileID: 4190819708112996, guid: 8e7369224ab2e4e33aeb246d18ef2b9c, type: 2}
       propertyPath: m_LocalPosition.z
