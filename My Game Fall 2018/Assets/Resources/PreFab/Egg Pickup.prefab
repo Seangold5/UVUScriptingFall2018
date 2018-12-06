@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 212429244744216380}
   - component: {fileID: 58023493496210664}
   - component: {fileID: 114277163959798990}
-  - component: {fileID: 111689370038929688}
-  - component: {fileID: 95646436160199072}
+  - component: {fileID: 111642009787559004}
+  - component: {fileID: 95165545847546832}
   m_Layer: 10
   m_Name: Egg Pickup
   m_TagString: Untagged
@@ -59,7 +59,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.485
---- !u!95 &95646436160199072
+--- !u!95 &95165545847546832
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
@@ -77,7 +77,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!111 &111689370038929688
+--- !u!111 &111642009787559004
 Animation:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,7 +86,8 @@ Animation:
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 3397161a6f04d4012948c4895b6c791b, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: 3397161a6f04d4012948c4895b6c791b, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
