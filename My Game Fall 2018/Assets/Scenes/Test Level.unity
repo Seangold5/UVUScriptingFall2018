@@ -3926,6 +3926,81 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60098ca8203214b8c961a5abcfa1aa89, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &240833149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 240833150}
+  - component: {fileID: 240833152}
+  - component: {fileID: 240833151}
+  m_Layer: 5
+  m_Name: Amo Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &240833150
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240833149}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.0000092}
+  m_LocalScale: {x: 1.00014, y: 1.00014, z: 1.00014}
+  m_Children: []
+  m_Father: {fileID: 546869021}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 134, y: -101.399994}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &240833151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240833149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.5254902, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 014e47eacde0042c4bccdd65ecc50c36, type: 3}
+    m_FontSize: 16
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 42
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Corn:'
+--- !u!222 &240833152
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240833149}
+  m_CullTransparentMesh: 0
 --- !u!1 &244268901
 GameObject:
   m_ObjectHideFlags: 0
@@ -8926,9 +9001,9 @@ RectTransform:
   - {fileID: 993245324}
   - {fileID: 1588778706}
   - {fileID: 1723228092}
-  - {fileID: 2119750175}
   - {fileID: 1986845328}
   - {fileID: 811222698}
+  - {fileID: 240833150}
   m_Father: {fileID: 0}
   m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12648,7 +12723,7 @@ RectTransform:
   m_LocalScale: {x: 9.131231, y: 9.131231, z: 9.131231}
   m_Children: []
   m_Father: {fileID: 546869021}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13826,9 +13901,9 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 906728895}
-  m_Text: 'Press Enter to fire eggs at enemies.
+  m_Text: 'Press the Right Control to fire eggs at
 
-    Becareful not to get snatched by an
+    enemies. Becareful not to get snatched by an
 
     alien or run out of eggs.'
   m_OffsetZ: 0
@@ -23124,53 +23199,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4940afbc5024340a18bb574a56041b04, type: 2}
   m_IsPrefabAsset: 0
---- !u!1001 &1401588309
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 546869021}
-    m_Modifications:
-    - target: {fileID: 4768976367595182, guid: 614f96d92ae3148aea2b64246b0c8a7b, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -644
-      objectReference: {fileID: 0}
-    - target: {fileID: 4768976367595182, guid: 614f96d92ae3148aea2b64246b0c8a7b, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 248
-      objectReference: {fileID: 0}
-    - target: {fileID: 4768976367595182, guid: 614f96d92ae3148aea2b64246b0c8a7b, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4768976367595182, guid: 614f96d92ae3148aea2b64246b0c8a7b, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4768976367595182, guid: 614f96d92ae3148aea2b64246b0c8a7b, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4768976367595182, guid: 614f96d92ae3148aea2b64246b0c8a7b, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4768976367595182, guid: 614f96d92ae3148aea2b64246b0c8a7b, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4768976367595182, guid: 614f96d92ae3148aea2b64246b0c8a7b, type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 212114810245901598, guid: 614f96d92ae3148aea2b64246b0c8a7b,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 614f96d92ae3148aea2b64246b0c8a7b, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1001 &1401925912
 Prefab:
   m_ObjectHideFlags: 0
@@ -26598,7 +26626,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 176.70001, y: -102.59999}
+  m_AnchoredPosition: {x: 189.40002, y: -102.59999}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1588778707
@@ -32590,7 +32618,7 @@ RectTransform:
   m_Children:
   - {fileID: 1681190843}
   m_Father: {fileID: 546869021}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -34526,11 +34554,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a4845c058e424429abbe3349a44efc6, type: 2}
   m_IsPrefabAsset: 0
---- !u!4 &2119750175 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4768976367595182, guid: 614f96d92ae3148aea2b64246b0c8a7b,
-    type: 2}
-  m_PrefabInternal: {fileID: 1401588309}
 --- !u!1001 &2126343342
 Prefab:
   m_ObjectHideFlags: 0
